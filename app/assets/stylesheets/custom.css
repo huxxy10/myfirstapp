@@ -1,0 +1,63 @@
+.navbar {
+	background-color: #BC8F8F;
+	color: #222;
+}
+#logo {
+float: left;
+font-size: 1.7em;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: -1px;
+font-weight: bold;	
+}
+#logo:hover {
+	color: #08088A;
+	text-decoration: none;
+}
+
+.css_class{
+color: white;
+display: inline-block;
+padding: 10px;	
+text-decoration: none;
+}
+.center {
+	text-align: center;
+}
+.m-3 {
+background-image: asset-url('22.jpeg');
+background-size: cover;
+height: 550px;
+}
+.m-3 h1{
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.btn-primary{
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: black;
+	text-align: left;
+}
+footer a:hover{
+	color:#222;
+}
+footer small{
+	float:left;
+}
+footer ul{
+	float: right;
+	list-style: none;
+}
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
