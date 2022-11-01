@@ -39,6 +39,14 @@ height: 550px;
 	font-size: 1.7em;
 	font-weight: bold;
 }
+.article-actions{
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+
+}
+.Description{
+	margin-top: 0px;
+}
 
 footer {
 	margin-top: 45px;
