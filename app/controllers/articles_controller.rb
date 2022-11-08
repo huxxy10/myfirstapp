@@ -57,7 +57,7 @@ def destroy
 
 flash[:danger] = "Article was successfully deleted"
 
-redirect_to articles_path
+redirect_to articles_path, status: :see_other
 
 end
 
