@@ -1,6 +1,7 @@
 .navbar {
 	background-color: #BC8F8F;
 	color: #222;
+	list-style-type:none ;
 }
 #logo {
 float: left;
@@ -14,15 +15,36 @@ font-weight: bold;
 	color: #08088A;
 	text-decoration: none;
 }
+.link {
+	color: black;
+display: inline-block;
+padding: 10px;
+	text-decoration: none;
+}
 
 .css_class{
-color: white;
+color: black;
 display: inline-block;
 padding: 10px;	
 text-decoration: none;
 }
+.css_class3{
+color: white;
+display: inline-block;	
+text-decoration: none;
+}
+.css_class2{
+color: black;
+display: inline-block;
+padding: 8px;	
+text-decoration: none;
+font-size: 1em;
+	font-weight: italic;
+}
+
 .center {
 	text-align: center;
+	
 }
 .m-3 {
 background-image: asset-url('22.jpeg');
@@ -64,7 +86,7 @@ font-size: 1.5em;
 }
 .listing{
 list-style: none;
-padding-left: 0;
+padding: 0;
 
 }
 footer {
