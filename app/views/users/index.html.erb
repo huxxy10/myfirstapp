@@ -10,10 +10,14 @@
 				<%= link_to user.username, user_path(user)%>
 			</li>
 			<li><small><%= pluralize(user.articles.count, "articles") if user.articles %> </small></li>
-			</div>
-			</div>
-			</ul>
-
+			<% if logged_in? and current_user.admin? %>
+              <li> <%= link_to "Delete this user", user_path(user),   
+                data: {turbo_method: :delete,turbo_confirm: "are you sure you want to delete the user and all thier articles ?"} %>	
+                </li>
+	<% end %>
+ </div>
+  </div>
+</ul>
 	<% end %>
 	 <%= will_paginate %>
 </div>

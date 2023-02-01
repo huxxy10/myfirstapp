@@ -9,6 +9,9 @@
         <li>
        <%= link_to "Articles", articles_path, {:class => "css_class"} %>
         </li>
+         <li>
+       <%= link_to "Users", users_path, {:class => "css_class"} %>
+        </li>
         <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -20,7 +23,7 @@
          <%= link_to 'Log out', logout_path,class:"link", method: :delete %>
 
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-           Your Profile
+           Your Profile <%= "Admin" if current_user.admin? %>
           </a>
           <ul class="dropdown-menu">
             <li><%= link_to "New Article",new_article_path, {:class => "css_class"} %></li>
